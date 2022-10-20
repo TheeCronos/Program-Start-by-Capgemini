@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#semana {
+    font-weight: 100;
+    font-size: 17px;
+}
+
+textarea {
+    text-indent: 2rem;
+    font-size: 15px;
+    padding-top: 2px;
+    text-align: left;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#expertise {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Formulário e tipos de inputs -->
+    <form action="">
+        <div id="first"> 
+            <input type="hidden" name="hidden"><br>
+            <input type="text" name="name" placeholder="Nome"><br>
+            <input type="email" name="email" placeholder="exemplo@gmail.com"><br>
+            <input type="search" name="busca" placeholder="busca"><br>
+            <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"><br>
+            <input type="number" name="idade" placeholder="idade"><br>
+            <input type="url" name="linkedin" placeholder="Linkedin URL"><br>
+        </div>
+        <input type="range" name="urgência" min=0 max=100 step=0.1><br>
+        <div id="semana">
+            <input type="checkbox" name="dia-da-semana" value="1"> Domingo<br>
+            <input type="checkbox" name="dia-da-semana" value="2"> Segunda-feira<br>
+            <input type="checkbox" name="dia-da-semana" value="3"> Terça-feira<br>
+            <input type="checkbox" name="dia-da-semana" value="4"> Quarta-feira<br>
+            <input type="checkbox" name="dia-da-semana" value="5"> Quinta-feira<br>
+            <input type="checkbox" name="dia-da-semana" value="6"> Sexta-feira<br>
+            <input type="checkbox" name="dia-da-semana" value="7"> Sábado<br>
+        </div>
+        <div id="expertise">
+            <input type="radio" name="expertise" value="frontend"> Front-End
+            <input type="radio" name="expertise" value="backend"> Back-End
+            <input type="radio" name="expertise" value="fullstack"> Full-Stack<br>
+        </div>
+        <textarea name="textarea" cols="40" rows="10">Área de texto</textarea><br>
+        <select name="cidade">
+            <option value="">Selecione a cidade</option>
+            <option value="Asa Sul">Asa Sul</option>
+            <option value="Asa Norte">Asa Norte</option>
+            <option value="Plano">Plano</option>
+        </select>
+        <input list="cidade" name="cidade">
+        <datalist id="cidade">
+            <option value="Asa Sul">Asa Sul</option>
+            <option value="Asa Norte">Asa Norte</option>
+            <option value="Plano">Plano</option>
+        </datalist><br>
+        <button type="button">Outra Ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+</body>
+</html>
